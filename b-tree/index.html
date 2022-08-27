@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.min.js"></script>
+    <script src="p5.js"></script>
+    <script src="p5.sound.js"></script>
+    <script src="BTree.js"></script>
+  </head>
+
+  <body>
+    <div class="user-interface">
+      <div class="options-header">
+        <h1>Opciones</h1>
+      </div>
+      <hr />
+      <form class="options">
+        <div class="insert-node">
+          <input type="text" class="value" placeholder="Valor">
+          <input type="submit" class="insertBtn" value="Insertar Nodo">
+        </div>
+        <div class="remove-node">
+          <input type="text" class="value" placeholder="Valor">
+          <input type="submit" class="removeBtn" value="Remover Nodo">
+        </div>
+        <hr />
+        <hr />
+      </form>
+      <table class="tree-data">
+      </table>
+    </div>
+    <script language="javascript" type="text/javascript" src="sketch.js"></script>
+  </body>
+
+</html>
+
